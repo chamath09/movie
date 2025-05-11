@@ -136,12 +136,13 @@ In the project directory, you can run:
 
 ### Home Page
 ![alt text](image.png)
+![alt text](image-1.png)
 
 ### Details Page
-![Details Page](https://via.placeholder.com/800x400?text=Details+Page)
+![alt text](image-2.png)
 
 ### Watchlist
-![Watchlist](https://via.placeholder.com/800x400?text=Watchlist)
+![alt text](image-3.png)
 ```
 
 ---
