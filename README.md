@@ -147,20 +147,20 @@ In the project directory, you can run:
 
 ---
 
-### **Key Fixes**
-1. **Environment Variables**:
+### Key Fixes
+1. Environment Variables:
    - Added proper formatting for the .env file section.
 
-2. **Folder Structure**:
+2. Folder Structure:
    - Fixed indentation and ensured the structure is clear and consistent.
 
-3. **API Integration**:
+3. API Integration:
    - Corrected the TMDB API endpoints and ensured they are properly formatted.
 
-4. **Available Scripts**:
+4. Available Scripts:
    - Added proper formatting for the commands.
 
-5. **Screenshots**:
+5. Screenshots:
    - Used consistent formatting for the screenshot section.
 
 This corrected section should now work properly in your README.md file. Let me know if you need further adjustments!
