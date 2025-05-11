@@ -135,7 +135,7 @@ In the project directory, you can run:
 ## Screenshots
 
 ### Home Page
-![Home Page](https://via.placeholder.com/800x400?text=Home+Page)
+![alt text](image.png)
 
 ### Details Page
 ![Details Page](https://via.placeholder.com/800x400?text=Details+Page)
