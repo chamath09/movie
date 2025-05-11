@@ -31,9 +31,12 @@ A movie and TV show discovery application built with React, Firebase, Chakra UI,
    git clone https://github.com/your-username/react-movie-app.git
    cd react-movie-app
 
-2. npm install
+2. Install dependencies:
+   ```bash
+   npm install
 
-3.
+3.Create a .env file in the root directory and add the following environment variables:
+
 REACT_APP_TMDB_API_KEY=your_tmdb_api_key
 REACT_APP_FIREBASE_API_KEY=your_firebase_api_key
 REACT_APP_FIREBASE_AUTH_DOMAIN=your_firebase_auth_domain
@@ -42,9 +45,43 @@ REACT_APP_FIREBASE_STORAGE_BUCKET=your_firebase_storage_bucket
 REACT_APP_FIREBASE_MESSAGING_SENDER_ID=your_firebase_messaging_sender_id
 REACT_APP_FIREBASE_APP_ID=your_firebase_app_id
 
-4.npm start
+4. Start the development server:
 
-##Folder Structure
+npm start
+
+The section you provided has formatting and content issues. Here's the corrected version of the problematic part of your README.md file:
+
+---
+
+### **Corrected Section**
+
+```markdown
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Create a `.env` file in the root directory and add the following environment variables:
+   ```env
+   REACT_APP_TMDB_API_KEY=your_tmdb_api_key
+   REACT_APP_FIREBASE_API_KEY=your_firebase_api_key
+   REACT_APP_FIREBASE_AUTH_DOMAIN=your_firebase_auth_domain
+   REACT_APP_FIREBASE_PROJECT_ID=your_firebase_project_id
+   REACT_APP_FIREBASE_STORAGE_BUCKET=your_firebase_storage_bucket
+   REACT_APP_FIREBASE_MESSAGING_SENDER_ID=your_firebase_messaging_sender_id
+   REACT_APP_FIREBASE_APP_ID=your_firebase_app_id
+   ```
+
+4. Start the development server:
+   ```bash
+   npm start
+   ```
+
+---
+
+## Folder Structure
+
+```
 src
 ├── components
 │   ├── Navbar.jsx
@@ -63,33 +100,66 @@ src
 ├── context
 │   └── useAuth.js
 └── App.js
+```
 
-##API Integration
-TMDB API
-Base URL: https://api.themoviedb.org/3
-Endpoints Used:
-/trending/{media_type}/{time_window}
-/movie/{movie_id}
-/tv/{tv_id}
-/search/movie
-/search/tv
+---
 
-##Firebase
-Used for:
-    User authentication
-    Storing and managing user watchlists
+## API Integration
 
-Available Scripts
+### TMDB API
+- **Base URL**: `https://api.themoviedb.org/3`
+- **Endpoints Used**:
+  - `/trending/{media_type}/{time_window}`
+  - `/movie/{movie_id}`
+  - `/tv/{tv_id}`
+  - `/search/movie`
+  - `/search/tv`
+
+### Firebase
+- **Used for**:
+  - User authentication
+  - Storing and managing user watchlists
+
+---
+
+## Available Scripts
+
 In the project directory, you can run:
 
-npm start: Runs the app in development mode.
-npm run build: Builds the app for production.
-npm test: Launches the test runner.
+- `npm start`: Runs the app in development mode.
+- `npm run build`: Builds the app for production.
+- `npm test`: Launches the test runner.
 
-##Screenshots
-Home Page
-<img alt="Home Page" src="https://via.placeholder.com/800x400?text=Home+Page">
-Details Page
-<img alt="Details Page" src="https://via.placeholder.com/800x400?text=Details+Page">
-Watchlist
-<img alt="Watchlist" src="https://via.placeholder.com/800x400?text=Watchlist">
+---
+
+## Screenshots
+
+### Home Page
+![Home Page](https://via.placeholder.com/800x400?text=Home+Page)
+
+### Details Page
+![Details Page](https://via.placeholder.com/800x400?text=Details+Page)
+
+### Watchlist
+![Watchlist](https://via.placeholder.com/800x400?text=Watchlist)
+```
+
+---
+
+### **Key Fixes**
+1. **Environment Variables**:
+   - Added proper formatting for the .env file section.
+
+2. **Folder Structure**:
+   - Fixed indentation and ensured the structure is clear and consistent.
+
+3. **API Integration**:
+   - Corrected the TMDB API endpoints and ensured they are properly formatted.
+
+4. **Available Scripts**:
+   - Added proper formatting for the commands.
+
+5. **Screenshots**:
+   - Used consistent formatting for the screenshot section.
+
+This corrected section should now work properly in your README.md file. Let me know if you need further adjustments!
